@@ -1,0 +1,25 @@
+{
+	"resources": [
+		{
+			"path": "/missing",
+			"count": 1
+		},
+		{
+			"path": "/orders",
+			"count": 1
+		}
+	],
+	"totalRequestsCount": 2,
+	"responseCodes": {
+		"200": 1,
+		"404": 1
+	},
+	"files": [
+		"example.log"
+	],
+	"responseSizeInBytes": {
+		"average": 200,
+		"max": 300,
+		"p95": 300
+	}
+}
